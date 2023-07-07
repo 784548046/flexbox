@@ -1,0 +1,79 @@
+ nav{
+    background-color: aqua;
+    height: 80px;
+    /* width: 1170px; */
+    margin-left: 100px;
+    flex-grow: all;
+    display: flex;
+
+}
+aside{
+    background-color: aqua;
+    height: 500px;
+    width: 100px;
+    display: flex;
+}
+footer{
+    background-color: aqua;
+    height: 100px;
+    /* width: 900px; */
+    margin-left: 200px;
+    margin-top: 50px;
+    flex-basis: 50px;
+    flex-grow: all;
+    display: flex;
+    margin-right: 100px;
+    
+}
+.carre1{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+}
+.carre2{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+}
+.verticale1{
+    background-color: aqua;
+    width: 40px;
+    height: 250px;
+}
+.verticale2{
+    background-color: aqua;
+    width: 40px;
+    height: 250px;
+}
+.verticale3{
+    background-color: aqua;
+    width: 40px;
+    height: 250px;
+}
+.horizontale{
+    background-color: aqua;
+    width: 400px;
+    height: 25px;
+    margin-top: 300px;
+    position: relative;
+    left: -150px;
+}
+.carre0{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+}
+.verticale0{
+    display: flex;
+    gap: 95px;
+    padding: 30px;
+    position: relative;
+    right: -200px;
+}
+.tout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -500px;
+}
